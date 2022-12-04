@@ -1,8 +1,7 @@
 
 # these settings. You can define environment variables
-
+# command = "make publish"
+# publish = ".docz/"
 [context.production]
-  publish = ".docz/"
-  command = "make publish"
   environment = { NODE_VERSION = "v18.9.1" }
 
