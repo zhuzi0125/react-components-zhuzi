@@ -5,3 +5,4 @@
 [context.production]
   environment = { NODE_VERSION = "v18.9.1" }
 
+# export NODE_OPTIONS=--openssl-legacy-provider

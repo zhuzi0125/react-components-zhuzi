@@ -28,8 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "docz:dev": "docz dev",
-    "docz:build": "docz build",
+    "docz:dev": "export NODE_OPTIONS=--openssl-legacy-provider && docz dev",
+    "docz:build": "export NODE_OPTIONS=--openssl-legacy-provider && docz build",
     "docz:serve": "docz build && docz serve"
   },
   "eslintConfig": {
